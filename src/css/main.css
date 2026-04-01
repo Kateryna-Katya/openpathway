@@ -268,3 +268,55 @@ font-size: 24px;
 height: 949px;
     }
 }
+/* FOR KIDS & FAMILIES */
+.for-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.for-text{
+    font-weight: 300;
+    width: 313px;
+}
+.for-text-two{
+        font-weight: 100;
+        font-size: 20px;
+        color: #999cae;
+        width: 233px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+}
+@media only screen and (min-width: 1440px) {
+ .for-wrapper-container{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+ }
+ .for-warpper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+  .for-title{
+    text-align: left;
+    width: 694px;
+  }
+  .for-text{
+    text-align: left;
+    width: 694px;
+  }
+  .for-container{
+    padding-left: 223px;
+  }
+  .for-title-wrapper{
+width: 400px;
+    height: 400px;
+  }
+  .for-text-two{
+    text-align: left;
+    font-size: 24px;
+    width: 279px;
+    margin-top: 0;
+  }
+}
