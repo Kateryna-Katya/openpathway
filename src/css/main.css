@@ -356,3 +356,25 @@ display: none;
     width: 1008px;
  }
 }
+/* WHY PLAY FIND THE PATH? */
+.why-section{
+    background-image: url("/img/why/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.why-text{
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+    color: #999cae;
+}
+@media only screen and (min-width: 1440px) {
+ .why-section{
+    background-image: url("/img/why/desk.png");
+ }
+ .why-text{
+    width: 817px;
+ }
+}
