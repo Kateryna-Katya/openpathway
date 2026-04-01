@@ -320,3 +320,39 @@ width: 400px;
     margin-top: 0;
   }
 }
+/* HINTS & JOKERS */
+.hints-img-desk{
+    display: none;
+}
+.hints-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hints-item{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        font-weight: 300;
+}
+@media only screen and (min-width: 1440px) {
+ .hints-list{
+    gap: 0;
+    width: 766px;
+ }
+ .hints-img{
+display: none;
+ }
+ .hints-img-desk{
+    margin-top: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1008px;
+ }
+}
