@@ -247,3 +247,24 @@ font-size: 24px;
     margin-bottom: 32px;
  }
 }
+/* COMPETITIVE EDGE */
+.competitive-text{
+        font-weight: 300;
+        color: #999cae;
+}
+.competitive-section{
+    background-image: url("/img/competitive/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 394px;
+    height: 735px;
+}
+@media only screen and (min-width: 1440px) {
+.competitive-section {
+        background-image: url("/img/competitive/desk.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: 100% 802px;
+height: 949px;
+    }
+}
