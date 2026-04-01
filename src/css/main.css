@@ -136,3 +136,70 @@ padding: 32px;
     width: 100%;
 }
 }
+/* HOW TO PLAY */
+.how-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 48px;
+}
+.how-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.how-number{
+    border-bottom: 1px solid rgba(212, 141, 8, 0.4);
+        padding: 10px;
+    font-size: 32px;
+    color: #656a80;
+    text-align: left;
+    width: 320px;
+}
+.how-text{
+        font-size: 16px;
+        text-align: right;
+}
+.how-section{
+    background-image: url("/img/how/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom 200px center;
+    background-size: 100% 212px;
+}
+.how-big-text{
+    margin-top: 240px;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #999cae;
+        opacity: 0.8;
+}
+@media only screen and (min-width: 1440px) {
+ .how-section{
+    background-image: url("/img/how/desk.png");
+        background-position: top 463px center;
+            background-size: 100% 487px;
+ }
+ .how-list{
+    margin-top: 56px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+ }
+ .how-item{
+    gap: 16px;
+ }
+ .how-number{
+    width: 180px;
+ }
+ .how-text{
+    text-align: left;
+    width: 180px;
+ }
+ .how-big-text{
+margin-top: 540px;
+font-size: 24px;
+ }
+}
